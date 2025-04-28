@@ -220,7 +220,7 @@ const CustomerAccountDashboard = () => {
   ))}
   </ul>
 ) : (
-  <p className="text-gray-600">Customer does not have any accounts.</p>
+  <p className="text-gray-600">Customer does not have any account.</p>
 )}
   </div>
         {/* Right Panel - Transaction History */}
