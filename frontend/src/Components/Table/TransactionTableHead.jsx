@@ -6,7 +6,6 @@ const Tablehead = () => {
           <th className="text-left"><p className="ml-2">Amount</p></th>
           <th className="text-left"><p className="ml-2">Naration</p></th>
           <th className="text-left"><p>Balance</p></th>
-          <th className="text-left"><p className="ml-2">Staff</p></th>
         </tr>
       </thead>
     );

@@ -49,7 +49,7 @@ function App() {
             toggleSidebar={toggleSidebar}
           />
         <Routes>
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="/customeraccountdashboard/:customerId" element={<CustomerAccountDashboard />} />
         </Routes>
         </div>

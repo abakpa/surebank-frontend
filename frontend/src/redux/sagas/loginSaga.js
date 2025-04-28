@@ -34,7 +34,7 @@ function* logoutSaga(action){
         localStorage.removeItem('staffEmail');
         localStorage.removeItem('staffRole');
         localStorage.removeItem('staffBranch');
-        navigate('/login');
+        navigate('/');
 
         // Dispatch logout success action
         yield put(logoutSuccess());
